@@ -11,7 +11,7 @@
 <hr class="sidebar-divider my-0">
 
 <li class="nav-item">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="<?= site_url ('dashboard') ?>">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span>
     </a>
@@ -32,8 +32,40 @@
         <span>Anggota</span>
     </a>
 </li>
+<hr class="sidebar-divider my-0">
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url ('buku') ?>">
+        <i class="fas fa-box"></i>
+        <span>Buku</span>
+    </a>
+</li>
+<hr class="sidebar-divider my-0">
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url ('peminjaman') ?>">
+        <i class="fas fa-box"></i>
+        <span>Peminjaman</span>
+    </a>
+</li>
+<hr class="sidebar-divider my-0">
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url ('laporan/peminjaman') ?>">
+        <i class="fas fa-box"></i>
+        <span>Laporan Peminjaman</span>
+    </a>
+</li>
+<hr class="sidebar-divider my-0">
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url ('laporan/buku') ?>">
+        <i class="fas fa-box"></i>
+        <span>Laporan Buku</span>
+    </a>
+</li>
 <hr class="sidebar-divider d-none d-md-block">
-\
+
 </ul>
  <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
